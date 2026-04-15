@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- Declares this as an HTML5 document -->
+<html lang="en"> <!-- Opens the HTML page and sets the language to English -->
+<head> <!-- Head section holds settings and links, not visible on the page -->
+  <meta charset="UTF-8"> <!-- Tells the browser to use UTF-8 character encoding -->
+  <title>General Knowledge Quiz</title> <!-- Sets the text shown on the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Links the CSS file to style this page -->
+</head> <!-- End of the head section -->
+<body> <!-- Body section holds everything the user can see -->
+  <h1 id="title">General Knowledge Quiz</h1> <!-- Main heading shown at the top of the page -->
+  <form id="quizForm" action="submit.php" method="POST"> <!-- Form that sends data to submit.php using POST -->
+    <div class="question"> <!-- Container box for question 1 -->
+      <p>1. What is the capital of France?</p> <!-- Question 1 text -->
+      <input type="radio" name="q1" id="q1a" value="a"> London<br> <!-- Option A for question 1 -->
+      <input type="radio" name="q1" id="q1b" value="b"> Paris<br> <!-- Option B for question 1 (correct answer) -->
+      <input type="radio" name="q1" id="q1c" value="c"> Berlin<br> <!-- Option C for question 1 -->
+    </div> <!-- End of question 1 container -->
+    <div class="question"> <!-- Container box for question 2 -->
+      <p>2. What is 5 x 5?</p> <!-- Question 2 text -->
+      <input type="radio" name="q2" id="q2a" value="a"> 20<br> <!-- Option A for question 2 -->
+      <input type="radio" name="q2" id="q2b" value="b"> 30<br> <!-- Option B for question 2 -->
+      <input type="radio" name="q2" id="q2c" value="c"> 25<br> <!-- Option C for question 2 (correct answer) -->
+    </div> <!-- End of question 2 container -->
+    <div class="question"> <!-- Container box for question 3 -->
+      <p>3. Mixing red and blue paint gives you which colour?</p> <!-- Question 3 text -->
+      <input type="radio" name="q3" id="q3a" value="a"> Green<br> <!-- Option A for question 3 -->
+      <input type="radio" name="q3" id="q3b" value="b"> Purple<br> <!-- Option B for question 3 (correct answer) -->
+      <input type="radio" name="q3" id="q3c" value="c"> Orange<br> <!-- Option C for question 3 -->
+    </div> <!-- End of question 3 container -->
+    <div class="question"> <!-- Container box for question 4 -->
+      <p>4. How many days are in a week?</p> <!-- Question 4 text -->
+      <input type="radio" name="q4" id="q4a" value="a"> 5<br> <!-- Option A for question 4 -->
+      <input type="radio" name="q4" id="q4b" value="b"> 6<br> <!-- Option B for question 4 -->
+      <input type="radio" name="q4" id="q4c" value="c"> 7<br> <!-- Option C for question 4 (correct answer) -->
+    </div> <!-- End of question 4 container -->
+    <div class="question"> <!-- Container box for question 5 -->
+      <p>5. What is the largest planet in our solar system?</p> <!-- Question 5 text -->
+      <input type="radio" name="q5" id="q5a" value="a"> Earth<br> <!-- Option A for question 5 -->
+      <input type="radio" name="q5" id="q5b" value="b"> Mars<br> <!-- Option B for question 5 -->
+      <input type="radio" name="q5" id="q5c" value="c"> Jupiter<br> <!-- Option C for question 5 (correct answer) -->
+    </div> <!-- End of question 5 container -->
+    <input type="hidden" id="score" name="score" value="0"> <!-- Hidden field that JavaScript will fill with the score -->
+    <button type="submit" id="submitBtn">Submit Quiz</button> <!-- Button the user clicks to submit their answers -->
+  </form> <!-- End of the quiz form -->
+  <script src="script.js"></script> <!-- Links the JavaScript file, placed at the bottom so HTML loads first -->
+</body> <!-- End of the body section -->
+</html> <!-- End of the HTML document -->

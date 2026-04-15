@@ -1,0 +1,32 @@
+body { /* Style rule for the entire page */
+  font-family: Arial, sans-serif; /* Sets the font to Arial for easy reading */
+  background-color: #f0f8ff; /* Sets a light blue background colour for the page */
+  margin: 40px; /* Adds 40px of space around all page content */
+  padding: 0; /* Removes any default inner spacing from the body */
+} /* End of body style */
+
+h1 { /* Style rule for the main heading */
+  color: #003366; /* Sets the heading text to a dark navy blue */
+  font-size: 26px; /* Sets the heading text to 26 pixels tall */
+} /* End of heading style */
+
+.question { /* Style rule for each question box (class used in HTML) */
+  background-color: #ffffff; /* Gives each question a white background */
+  border: 1px solid #cccccc; /* Adds a thin light-grey border around each question */
+  margin-bottom: 15px; /* Adds 15px of space below each question box */
+  padding: 10px; /* Adds 10px of space inside each question box */
+  font-size: 16px; /* Sets the text size inside each question to 16 pixels */
+} /* End of question box style */
+
+button { /* Style rule for the Submit button */
+  background-color: #003366; /* Sets the button background to dark navy blue */
+  color: #ffffff; /* Sets the button text to white */
+  font-size: 16px; /* Sets the button text size to 16 pixels */
+  padding: 10px 20px; /* Adds 10px top/bottom and 20px left/right space inside the button */
+  border: none; /* Removes the default grey border around the button */
+  margin-top: 10px; /* Adds 10px of space above the button */
+} /* End of button style */
+
+button:hover { /* Style rule that applies when the mouse moves over the button */
+  background-color: #0055aa; /* Changes the button to a lighter blue when hovered */
+} /* End of hover style */

@@ -1,0 +1,57 @@
+PROJECT WRITE-UP: General Knowledge Quiz App
+=============================================
+
+Why I Chose This Project
+------------------------
+I chose to build a quiz app because my main interest is Education. I believe
+that learning works best when it is interactive and fun. A quiz is something
+that every student is familiar with, and turning it into a web app makes it
+more engaging than a paper test. The topic I used is general knowledge, which
+covers things students learn in school subjects like Geography, Maths, Science,
+and English. I wanted to build something that could actually help a student
+study and test themselves, which is why this project felt meaningful to me.
+
+
+How Each Technology Was Used
+-----------------------------
+HTML was used to build the structure of the quiz. I wrote the questions and
+answer choices directly inside the HTML file using radio buttons, which allow
+the user to select only one answer per question. I also used a form element
+that sends the data to the PHP file when the user clicks Submit.
+
+CSS was used to make the page look clean and easy to read. I gave the page a
+light blue background and put each question inside a white box with a border
+so that each question looks separate and neat. I also styled the Submit button
+to be dark blue with white text so it stands out clearly on the page.
+
+JavaScript was used to count the correct answers before the form is submitted.
+When the user clicks Submit, the JavaScript checks which radio buttons are
+selected and compares them to the correct answers. For every correct answer, it
+adds 1 to a score variable. At the end, it puts the final score into a hidden
+form field so that the PHP file can receive it.
+
+PHP was used on the server side to receive the score and display a result
+message. It reads the score that was sent from the form, then uses if statements
+to decide what message to show. If the student scored 5 out of 5, they get an
+"Excellent" message. If they scored 3 or 4, they get a "Good job" message. If
+they scored below 3, they get an encouraging message to keep practising.
+
+
+One Challenge I Faced and How I Solved It
+------------------------------------------
+One challenge I faced was figuring out how to pass the score from JavaScript to
+PHP without using AJAX. At first I did not understand how to send extra data
+when a form is submitted. After thinking about it, I realised I could add a
+hidden input field to the form. JavaScript writes the score into that hidden
+field just before the form submits, and then PHP reads it from the POST data
+like any other form field. This was a simple but clever solution that did not
+require any extra libraries or complex code.
+
+
+One Future Improvement
+-----------------------
+In the future, I would like to add a timer to the quiz so that students have a
+set amount of time to answer each question. This would make the quiz feel more
+like a real exam and help students practise working under pressure. I would
+also like to store the questions in a database using MySQL so that new questions
+can be added easily without changing the HTML code each time.
