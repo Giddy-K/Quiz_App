@@ -12,22 +12,36 @@ A simple web-based quiz about general school knowledge topics (Geography, Maths,
 | `submit.php`  | Receives the score and displays a result message                   |
 | `writeup.txt` | Short student write-up explaining the project                      |
 
+## Requirements
+
+The only requirement is **PHP** installed on the machine. No database, Node.js, or package manager is needed.
+
+**Check if PHP is already installed:**
+```bash
+php -v
+```
+
+If you see a version number, you are ready to go.
+
+**If PHP is not installed:**
+
+- **Windows** - Download from [php.net/downloads](https://windows.php.net/download/) (VS17 x64 Thread Safe zip), extract it, and add the folder to your system PATH.
+- **XAMPP (easiest option)** - Download from [apachefriends.org](https://www.apachefriends.org/) and install it. This bundles PHP and Apache together with no manual configuration needed.
+
 ## How to Run
 
-You need a PHP-capable local server. The easiest option is PHP's built-in server:
-
+**Option 1 - PHP built-in server:**
 ```bash
 php -S localhost:8000
 ```
-
 Then open your browser and go to:
-
 ```
 http://localhost:8000/index.html
 ```
 
-Alternatively, place the project folder inside your XAMPP or WAMP `htdocs` directory and start Apache, then visit:
+**Option 2 - XAMPP:**
 
+Place the `Quiz_App` folder inside `C:/xampp/htdocs/`, start Apache from the XAMPP control panel, then visit:
 ```
 http://localhost/Quiz_App/index.html
 ```
