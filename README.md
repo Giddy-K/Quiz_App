@@ -1,16 +1,16 @@
 # General Knowledge Quiz App
 
-A simple web-based quiz about general school knowledge topics (Geography, Maths, Science). Built with plain HTML, CSS, JavaScript, and PHP — no libraries or frameworks. Designed as a beginner project that is easy to understand and rewrite from memory.
+A simple web-based quiz about general school knowledge topics (Geography, Maths, Science). Built with plain HTML, CSS, JavaScript, and PHP - no libraries or frameworks. Designed as a beginner project that is easy to understand and rewrite from memory.
 
 ## Project Files
 
-| File | Purpose |
-|---|---|
-| `index.html` | The quiz page — contains all questions and the submit button |
-| `style.css` | Styling — colours, fonts, spacing |
-| `script.js` | Counts correct answers and stores the score before form submission |
-| `submit.php` | Receives the score and displays a result message |
-| `writeup.txt` | Short student write-up explaining the project |
+| File          | Purpose                                                            |
+| ------------- | ------------------------------------------------------------------ |
+| `index.html`  | The quiz page - contains all questions and the submit button       |
+| `style.css`   | Styling - colours, fonts, spacing                                  |
+| `script.js`   | Counts correct answers and stores the score before form submission |
+| `submit.php`  | Receives the score and displays a result message                   |
+| `writeup.txt` | Short student write-up explaining the project                      |
 
 ## How to Run
 
